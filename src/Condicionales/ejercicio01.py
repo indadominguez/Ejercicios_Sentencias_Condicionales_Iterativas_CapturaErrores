@@ -6,7 +6,7 @@ def pedir_numero(mensaje: str) -> int:
         numero = input(mensaje)
     return int(numero)
 
-def calcular_edad(edad: int) -> int:
+def calcular_edad(edad: int) -> None:
     if edad >= 18:
         print("Usted es mayor de edad.")
     else:

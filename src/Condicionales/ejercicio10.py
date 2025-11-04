@@ -1,5 +1,6 @@
 
 def pedir_pizza():
+    print("BIENVENIDO A PIZZERIA BELLA NAPOLI 🍕")
     tipo = input("Introduzca si quiere una pizza vegetariana (si/no) :").lower()
     if tipo == "sí" or tipo == "si":
         return "Vegetariana"
