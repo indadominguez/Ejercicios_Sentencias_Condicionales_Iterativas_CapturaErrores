@@ -20,10 +20,10 @@ def contar_letra(palabra: str, vocal: str) -> int:
 
 
 def main():
-    palabra = pedir_palabra("Introduzca una palabra: ")
+    palabra = pedir_palabra("Introduzca una frase: ")
     vocal = pedir_vocal("Introduzca una vocal: ")
     total = contar_letra(palabra, vocal)
-    print(f"La vocal {vocal} aparece {total} veces en la palabra {palabra}. ")
+    print(f"La vocal '{vocal}' aparece {total} veces en la frase '{palabra}'. ")
 
 
 
